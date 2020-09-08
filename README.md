@@ -8,7 +8,7 @@ SKTkobert 및 Bert multi-lingual 모델의 finetuning 결과 비교
 
 
 ## data
-* train, val set
+* train, val set : EXO-brain data
     * https://github.com/kmounlp/NER 
 * test set
     * test_exo_form2.txt :  
