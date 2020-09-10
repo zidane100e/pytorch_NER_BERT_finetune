@@ -1,23 +1,15 @@
 # BERT finetuning + CRF
 SKTkobert 및 Bert multi-lingual 모델의 finetuning 결과 비교
 * reference
-<<<<<<< HEAD
     * https://github.com/eagle705/pytorch-bert-crf-ner  
         * kobert_decode.py, bert_decode.py
     * https://www.depends-on-the-definition.com/named-entity-recognition-with-bert/
 
 ## CRF 
 * https://pytorch-crf.readthedocs.io/en/stable/
-=======
-   * https://github.com/eagle705/pytorch-bert-crf-ner  
-
-## CRF 
-* https://pytorch-crf.readthedocs.io/en/stable/
-
->>>>>>> 188e01694aae756405af12a03ec9e007fda991c5
 
 ## data
-* train, val set : EXO-brain data
+* train, val set
     * https://github.com/kmounlp/NER 
 * test set
     * test_exo_form2.txt :  
