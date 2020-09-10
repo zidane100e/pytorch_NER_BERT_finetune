@@ -6,7 +6,7 @@ class DecoderFromNamedEntitySequence():
     def change2tokens(self, in_ids):
         vocab = self.tokenizer.ids_to_tokens
         tokens = [ vocab[x] for x in in_ids ]
-        tokens = [x[2:] if x[:2]=='##' else "▁"+x for x in tokens]
+        tokens = [x[2:] if x[:2]=='##' else "▁" + x for x in tokens]
         tokens = [x[1:] if x in ['▁[CLS]', '▁[SEP]', '▁[PAD]'] else x for x in tokens ]
         return tokens
     
